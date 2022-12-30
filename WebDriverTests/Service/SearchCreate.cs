@@ -11,7 +11,7 @@ namespace WebDriverTests.Service
         private static readonly ILoggerFactory _loggerFactory = new LoggerFactory();
         private static readonly ILogger _logger = _loggerFactory.CreateLogger("CustomCategory");
 
-        private static string _searchString = "Куртка";
+        private static string _searchString = "Кепка";
 
         public static Search CreateSearchWithCredentialsString()
         {
